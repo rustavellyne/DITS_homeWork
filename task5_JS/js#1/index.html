@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+<div class="wrapper">
+<!--section task1-->
+<section class="task1">
+<p class="description">
+	Создать поле для ввода текста и кнопку, которая имитирует отправку формы.
+	 Кнопка по умолчанию disabled. Если человек вводит больше 3 символов 
+	 в поле - то убрать disabled с кнопки.
+	 И наоборот, если меньше 3х знаков в поле - делать ее disabled.
+</p>
+<form>
+	<label for="data">Введите текст:<input type="text" id="data" onkeyup="butEnable(this)"></label>
+</form>
+<button disabled id="enButton">Submit</button>
+</section>
+<!--section task2-->
+
+
+<section class="task2">
+<p class="description">
+	Сделать кнопку, при нажатию на которую всплывает
+	 полупрозрачный overlay с контентом внутри. 
+	 Пример - как на нашем сайте, если нажать кнопку "Замовити дзвінок".
+	 jQuery и прочее не использовать. 
+	Только чистые JS, CSS
+</p>
+	<button id="callButton" onclick="openWin();">Заказать звонок</button>
+	
+	<div id="modal" class="modal">
+		<div class="modal-content">
+			<span id="close" onclick="closeWin();" class="close">&times;</span>
+			<form>
+				<input type="text" placeholder="Your name"><br>
+				<input type="text" placeholder="telephone"> <br>
+				<input type="submit" value="Send" onclick="closeWin;">
+				
+			</form>
+		</div>
+			
+	</div>
+</section>
+	<br/>
+<section class="task3">
+	<p class="description">
+		Запросить у пользователя какую операцию он желает выполнить 
+		(add, subtract, divide, multiply),
+		 далее запросить два числа для выполнения операции, 
+		 выполнить операцию и вывести результат
+</p>
+	<button class="task3" id="task3" onclick="task3();">TASK - 3</button> 
+
+</section>
+
+</div>
+
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

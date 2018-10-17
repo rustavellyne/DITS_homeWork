@@ -1,0 +1,60 @@
+@import "variables";
+.banner_happy {
+  width: 100%;
+  height: 832px;
+  background: url('../img/bg+gradient_2.png') no-repeat center top;
+  text-align: center;
+}
+
+.recommends {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin-top: 83px;
+  padding:0 56px 0 39px;
+
+}
+
+.recommend__client{
+  display:flex;
+  width:540px;
+  margin-bottom:134px;
+
+  img{
+    width: 112px;
+    height: 112px;
+  }
+}
+
+.recomend_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //width: 273px;
+  width: 100%;
+  margin-left: 23px;
+
+  .teammate_position::after {
+    @include pseudoElem;
+    background-color: #f38181;
+    top: 85px;
+  }
+}
+
+.client_name, .teammate_position {
+  align-self:flex-start;
+}
+.client_recommends{
+  text-align:left;
+  margin-top:44px;
+}
+.client_name{
+  margin: 13px 0 13px 0;
+  text-transform: uppercase;
+  color: #333333;
+  font: {
+    family: 'Montserrat';
+    size: 14px;
+    weight: 400;
+  }
+}

@@ -1,0 +1,220 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+nav, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	 padding: 68px 0;
+}
+
+.logo img {
+	margin-bottom: 3px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 200px;
+}
+
+.menu__item a {
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.main__img {
+	height: 509px;
+	/*background-image: url("../img/banner.png");*/
+	background: url("../img/banner.png") no-repeat;
+	background-size: contain;
+}
+
+/* post main*/
+
+.post {
+	margin-top: 90px;
+}
+
+.post__category {
+	margin-bottom: 28px;
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.post__heading {
+	margin-bottom: 34px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.post__text {
+	margin-bottom: 52px;
+}
+
+.comment {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+/*list-posts*/
+
+.listposts {
+	margin-top: 135px;
+}
+
+.post__small img {
+	max-width: 100%;
+	margin-bottom: 32px;
+}
+
+.post__small .post__text {
+	margin-bottom: 0;
+}
+/*sign up*/
+
+.newsletter {
+	padding: 73px 0;
+	margin-top: 122px;
+	background-color: #f0f0f0;
+}
+
+.newsletter h2 {
+	text-align: center;
+	margin-bottom: 83px;
+	letter-spacing: 0.75px;
+}
+
+.newsletter__signup {
+	display: flex;
+	justify-content: space-around;
+}
+
+.form__align {
+	display: flex;
+	align-items: center;
+	width: 400px; /* Ширина поля с кнопкой */
+  border-bottom: 1px solid #000; /* Параметры рамки */
+  min-height: 20px; /* Минимальная высота */
+}
+.newsletter__signup input[type="email"] {
+	border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  width: 360px; /* Ширина поля */
+  vertical-align: middle; /* Выравнивание по середине */
+  background-color: inherit;
+}
+
+.newsletter__signup input[type="submit"] {
+	width: 32px;
+	height: 17px;
+  border: none; /* Убираем рамку */
+  background: url(../img/send.png) no-repeat; /* Параметры фона */
+}
+
+.listpost2 {
+	margin-top: 100px;
+}
+
+
+
+.load {
+	margin:  0 auto;
+	margin-top: 165px;
+	margin-bottom: 1370px;
+	padding: 21px 34px;
+	border: 1px solid #626262;
+	color: #626262;
+	font-family: "Playfair Display";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #f0f0f0;
+	padding: 43px 0;
+	/*margin-top: 1370px;*/
+}
+
+footer ul {
+	list-style: none;
+}
+
+.footer a {
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.navleft ul {
+	display: flex;
+	align-items: center;
+}
+
+.navleft__item {
+	margin-right: 17px;
+}
+
+.navright__item {
+	display: flex;
+	align-items: center;
+}
+
+.navright ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.facebook {
+	width: 8px;
+	height: 14px;
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.instagram {
+	width: 18px;
+	height: 13px;
+	background-image: url("../img/instagram.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.twitter {
+	width: 15px;
+	height: 15px;
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+/*media queries*/
+

@@ -1,0 +1,77 @@
+.service {
+  padding: {
+    top: 30px;
+    bottom: 118px;
+  }
+}
+
+.skills {
+  margin-top: 91px;
+  display: flex;
+  justify-content: space-between;
+
+  &__image{
+    width: 572px;
+    height: 382px;
+  }
+  &__items_image{
+    width: 24px;
+    height: 15px;
+  }
+  &__list {
+    width: 602px;
+
+    h5{
+      margin: {
+        left: 14px;
+        right: 386px;
+      }
+    }
+  }
+  &__item-1, &__item-2, &__item-3 {
+    height: 62px;
+    margin-bottom: 6px;
+    padding: 14px 20px 14px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    color: #333333;
+    text-transform: uppercase;
+    font: {
+      family: Montserrat;
+      size: 14px;
+      weight: 400;
+    }
+  }
+  &__descr {
+    margin-bottom: 6px;
+    width: 602px;
+    height: 183px;
+    border: 1px solid #e5e5e5;
+    color: #999999;
+
+    p{
+      width: 555px;
+      height: 132px;
+      margin:22px 25px 29px 21px;
+      padding-right:29px;
+      line-height: 24px;
+      text-align:left;
+      overflow:auto;
+      font: {
+        family: "Roboto", Light Italic;
+        size: 15px;
+        weight: 400;
+      }
+      &::-webkit-scrollbar{
+        width: 1%;
+        background-color: #F5F5F5;
+
+        &-thumb{
+          background-color: #95e1d3;
+        }
+      }
+    }
+  }
+}

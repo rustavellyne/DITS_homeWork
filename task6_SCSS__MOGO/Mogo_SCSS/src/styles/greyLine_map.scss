@@ -1,0 +1,35 @@
+.greyLine__map{
+  height: 202px;
+  padding-top: 1px;
+  background:url('../img/bg_map.png');
+}
+.open__map{
+  color: #f38181;
+  text: {
+    transform: uppercase;
+    align: center;
+  }
+  font: {
+    family: Montserrat, sans-serif;
+    size: 24px;
+    weight: 700;
+  }
+
+  &::before{
+    content: '';
+    display: block;
+    margin:57px auto 17px;
+    width: 22px;
+    height: 28px;
+    background:url('../img/pin.png') center no-repeat;
+  }
+
+  &::after{
+    content: '';
+    display: block;
+    margin: 20px auto 80px;
+    width: 62px;
+    height: 5px;
+    background-color: #f38181;
+  }
+}

@@ -1,0 +1,41 @@
+.secondTitle {
+  & + .row {
+    margin-top: 111px;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  &__services {
+    display: flex;
+    width: 380px;
+
+    &_image{
+      height: 33px;
+      width: 34px;
+      margin:0 28px;
+    }
+
+    &_info {
+      text-align: left;
+
+      h3 {
+        margin-bottom: 20px;
+        color: #333333;
+        text-transform: uppercase;
+        font: {
+          family: Montserrat;
+          size: 14px;
+          weight: 400;
+        }
+      }
+    }
+  }
+}
+hr{
+  height: 1px;
+  margin:49px 0;
+  border:none;
+  background-color: #e5e5e5;
+}

@@ -1,0 +1,48 @@
+@import "variables";
+
+.line{
+  height: 272px;
+  margin:0 auto;
+}
+
+.blue_line{
+  margin-top:108px;
+  background-color: #95e1d3;
+}
+
+.block_stats {
+  display: flex;
+
+  .stat_info {
+    width: 236px;
+    height: 272px;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    @include padding-box;
+    text-align: center;
+
+    &:last-child {
+      border-right: 4px solid rgba(255, 255, 255, 0.3);
+      @include padding-box;
+    }
+    & > h2 {
+      margin-top: 90px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font: {
+        family: Montserrat;
+        size: 72px;
+        weight: 700;
+      }
+    }
+    & > p {
+      margin:30px 0 90px 0;
+      color: #ffffff;
+      text-transform: uppercase;
+      font: {
+        family: Montserrat;
+        size: 14px;
+        weight: 400;
+      }
+    }
+  }
+}

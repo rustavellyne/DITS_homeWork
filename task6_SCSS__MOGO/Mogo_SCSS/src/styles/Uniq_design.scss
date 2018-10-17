@@ -1,0 +1,28 @@
+.Uniq{
+  margin-top:120px;
+  height: 852px;
+  background:url("../img/Uniq_bg.png") no-repeat center top;
+}
+
+.ipad{
+  width:477px;
+  height:582px;
+}
+
+.iphone{
+  position:absolute;
+  top:197px;
+  right:200px;
+  width:274px;
+  height:476px;
+}
+
+.devices{
+  position:relative;
+  top:102px;
+  right:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

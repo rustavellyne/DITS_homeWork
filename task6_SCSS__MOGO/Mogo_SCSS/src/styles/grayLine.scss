@@ -1,0 +1,55 @@
+@import "variables";
+
+.grey_line{
+  height:292px;
+  background-color: #f8f8f8;
+}
+
+.grey__line_container{
+  height: 292px;
+  padding: 70px 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greyline__icon{
+  padding: 44px;
+  margin: {
+    left: 72px;
+    right: 60px;
+  }
+  border: 3px solid #95e1d3;
+}
+.greyline__text{
+  margin-right:73px;
+  p {
+    color: #999999;
+    line-height: 36px;
+    font {
+      family: "Roboto";
+      style: italic;
+      size: 24px;
+      weight: 400;
+    }
+  }
+  h3{
+    margin-top:23px;
+    color: #333333;
+    font: {
+      family: "Kaushan Script";
+      size: 24px;
+      weight: 400;
+    }
+    &::before{
+      content: '';
+      display: inline-block;
+      position: relative;
+      background-color: #f38181;
+      width: 62px;
+      height: 5px;
+      margin-right:9px;
+      bottom:5px;
+    }
+  }
+}

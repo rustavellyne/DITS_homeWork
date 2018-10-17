@@ -1,0 +1,37 @@
+.gallary{
+  margin-top:101px;
+  display:flex;
+  justify-content:flex-start;
+  flex-flow: row nowrap;
+
+  &__square{
+    width: 480px;
+    height: 389px;
+  }
+
+  &__rectangle{
+    width: 480px;
+    height: 778px;
+  }
+  &_item1{
+    background: url('../img/galary1.png') no-repeat;
+  }
+  &_item2{
+    background: url('../img/galary2.png') no-repeat;
+  }
+  &_item3{
+    background: url('../img/galary3.png') no-repeat;
+  }
+  &_item4{
+    background: url('../img/galary4.png') no-repeat;
+  }
+  &_item5{
+    background: url('../img/galary5.png') no-repeat;
+  }
+  &_item6{
+    background: url('../img/galary6.png') no-repeat;
+  }
+  &_item7{
+    background: url('../img/galary7.png') no-repeat;
+  }
+}
