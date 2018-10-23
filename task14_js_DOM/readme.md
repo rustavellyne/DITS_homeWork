@@ -18,6 +18,30 @@
 - Элемент с именем info[0], без точного знания его позиции в документе.
 - Элемент с именем info[0], внутри формы с именем search-person.
 
+### Задача №4
+
+Напиcать функцию showNotification(options), которая показывает уведомление, пропадающее через 2 сек. 
+```
+	/**
+	* Показывает уведомление, пропадающее через 2 сек
+	*
+	* @param options.top {number} вертикальный отступ, в px
+	* @param options.right {number} правый отступ, в px
+	* @param options.сolor {string} строка цвета
+	* @param options.className {string} CSS-класс
+	* @param options.html {string} HTML-текст для показа
+	*/
+	function showNotification(options) {
+	// ваш код
+	}
+```
+
+
+### Задача №5
+- Дан узел DOM(в хтмл создать div). 
+- Сделать функции hasClass(node, klass), addClass(node, klass), removeClass(node, klass), которые позволяют проверить, есть ли у элемента заданный CSS-класс, добавить к нему класс (если его еще нет) и удалить класс.
+- Если удалены все классы, то удалять аттрибут class="" не надо, пусть остается.
+
 
 - домашнее задание [презентация](https://deutsche-it-schule.com.ua/webroot/uploads/p/p18/#cover)
 
